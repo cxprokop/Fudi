@@ -382,4 +382,78 @@ a {
   line-height: 12px;
   font-style: normal;
 }
+
+.numbers-content {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  padding-bottom: 60px;
+}
+
+.numbers-title {
+  text-transform: uppercase;
+  font-family: 'Lato Bold', sans-serif;
+  font-weight: bold;
+  font-size: 36px;
+  line-height: 30px;
+  font-style: normal;
+  text-align: center;
+  color: #000000;
+  margin-bottom: 10px;
+}
+
+.numbers-description {
+  font-family: 'Lato Light', sans-serif;
+  font-size: 16px;
+  line-height: 18px;
+  font-weight: Light;
+  color: #000000;
+  text-transform: capitalize;
+  text-align: center;
+}
+
+footer {
+  background-color: #f7f7f7;
+  border-top: 2px solid #e2e2e2;
+}
+
+.footer-content {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  padding: 40px 0 40px 0;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.footer-copyright {
+  font-family: 'Lato Light', sans-serif;
+  font-size: 14px;
+  font-weight: Light;
+  color: #8b8b8b;
+}
+
+.footer-design {
+  font-family: 'Lato Light', sans-serif;
+  font-size: 14px;
+  font-weight: Light;
+  color: #e2e2e2;
+  font-style: normal;
+  letter-spacing: 8px;
+}
+
+.footer-design a:hover {
+  color: #8b8b8b;
+}
 /*# sourceMappingURL=main.css.map */
