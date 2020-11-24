@@ -17,6 +17,7 @@
 				<div class="header-menu">
 					<img src="img/header/logo.png" alt="logo" class="logo">
 					<div class="header-menu__list">
+						<button class="button" onclick="headerClick()"">Цвет ссылки</button>
 						<a href="#" class="header-menu__link">Log in</a>
 						<a href="#" class="header-menu__link">Sign In</a>
 					</div>
@@ -35,7 +36,7 @@
 					<div class="get-content__circle">
 						<img src="img/get/burger.png" alt="">
 					</div>
-					<div class="get-content__title">
+					<div class="get-content__title title">
 						get inspired
 					</div>
 					<div class="get-content__description">
@@ -48,7 +49,7 @@
 					<div class="get-content__circle">
 						<img src="img/get/cash.png" alt="">
 					</div>
-					<div class="get-content__title">
+					<div class="get-content__title title">
 						get rewarded
 					</div>
 					<div class="get-content__description">
@@ -61,7 +62,7 @@
 					<div class="get-content__circle">
 						<img src="img/get/cook.png" alt="">
 					</div>
-					<div class="get-content__title">
+					<div class="get-content__title title">
 						get social
 					</div>
 					<div class="get-content__description">
@@ -81,7 +82,11 @@
 					<img src="img/iphone/iphone.jpg" alt="iphone">
 				</div>
 				<div class="iphone-text">
-					<div class="iphone-text__title">INTRODUCING THE FUDI APP</div>
+					<div class="buttons">
+						<button class="button" onclick="changeColor();">Цвет заголовка</button>
+						<button class="button" onclick="toAddParagraph()">Добавить абзац</button>
+					</div>
+					<div class="iphone-text__title title">INTRODUCING THE FUDI APP</div>
 					<div class="iphone-text__description">
 						<p>Morbi eget posuere dolor. Pellentesque cursus aliquet aliquet. Aeneanet
 							felis sit amet diam mollis ullamcorper. Nullam consequat sem a ante vest
@@ -106,45 +111,45 @@
 
 	<section class="cuisines">
 		<div class="cuisines-content">
-			<div class="cuisines-title">
+			<div class="cuisines-title title">
 				<h2>BROWSE BY CUISINES</h2>
 			</div>
 			<div class="cuisines-photo__blocks">
 				<div class="cuisines-photo__img italian">
 					<div class="recipes">327 Recipes</div>
-					<div class="recipes-title">italian</div>
+					<div class="recipes-title title">italian</div>
 				</div>
 				<div class="cuisines-photo__img indian">
 					<div class="recipes">865 Recipes</div>
-					<div class="recipes-title">indian</div>
+					<div class="recipes-title title">indian</div>
 				</div>
 				<div class="cuisines-photo__img french">
 					<div class="recipes">27 Recipes</div>
-					<div class="recipes-title">french</div>
+					<div class="recipes-title title">french</div>
 				</div>
 				<div class="cuisines-photo__img house">
 					<div class="recipes">174 Recipes</div>
-					<div class="recipes-title">steakhouse</div>
+					<div class="recipes-title title">steakhouse</div>
 				</div>
 				<div class="cuisines-photo__img seafood">
 					<div class="recipes">731 Recipes</div>
-					<div class="recipes-title">seafood</div>
+					<div class="recipes-title title">seafood</div>
 				</div>
 				<div class="cuisines-photo__img sishi">
 					<div class="recipes">222 Recipes</div>
-					<div class="recipes-title">sushi</div>
+					<div class="recipes-title title">sushi</div>
 				</div>
 				<div class="cuisines-photo__img mexican">
 					<div class="recipes">529 Recipes</div>
-					<div class="recipes-title">mexican</div>
+					<div class="recipes-title title">mexican</div>
 				</div>
 				<div class="cuisines-photo__img chinese">
 					<div class="recipes">145 Recipes</div>
-					<div class="recipes-title">chinese</div>
+					<div class="recipes-title title">chinese</div>
 				</div>
 				<div class="cuisines-photo__img pizza">
 					<div class="recipes">420 Recipes</div>
-					<div class="recipes-title">pizza</div>
+					<div class="recipes-title title">pizza</div>
 				</div>
 				<div class="cuisines-photo__img american">
 					<div class="recipes">1,437Recipes</div>
@@ -158,23 +163,23 @@
 		<div class="container">
 			<div class="numbers-content">
 				<div class="numbers-block">
-					<div class="numbers-title">23,567</div>
+					<div class="numbers-title title">23,567</div>
 					<div class="numbers-description">Recipes Available</div>
 				</div>
 				<div class="numbers-block">
-					<div class="numbers-title">431,729</div>
+					<div class="numbers-title title">431,729</div>
 					<div class="numbers-description">Active Users</div>
 				</div>
 				<div class="numbers-block">
-					<div class="numbers-title">892,173</div>
+					<div class="numbers-title title">892,173</div>
 					<div class="numbers-description">Positive Reviews </div>
 				</div>
 				<div class="numbers-block">
-					<div class="numbers-title">56,581</div>
+					<div class="numbers-title title">56,581</div>
 					<div class="numbers-description">Photos & Videos</div>
 				</div>
 				<div class="numbers-block">
-					<div class="numbers-title">3,182</div>
+					<div class="numbers-title title">3,182</div>
 					<div class="numbers-description">Spices and Herbs </div>
 				</div>
 			</div>
@@ -192,6 +197,8 @@
 			</div>
 		</div>
 	</footer>
+
+	<script src="js/main.js"></script>
 
 </body>
 
